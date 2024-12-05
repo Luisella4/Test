@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bussola Viaggi</title>
+    <link rel="icon" href="img/logo.png" type="imgage/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"> 
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    <link rel="stylesheet" href="style01.css">
+
+</head>
+<body>
+    <header id="main-header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+           
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="" width="60">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#info">Chi siamo</a>
+                  </li>
+                 
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Viaggi
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#cards">Mete consigliate</a></li>
+            
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="tutte-le-mete.html">Tutte le mete</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contatti.html">Contatti</a>
+                  </li>
+                </ul>
+              
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section id="hero" class="position-relative">
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+          
+            <div class="carousel-item drk">
+              <picture>
+                  <source
+                  srcset="img/Parigi2.jpg"
+                  media="(min-width:1200px)"
+                  >
+                  <source
+                  srcset="img/Parigi4.jpg"
+                  media="(min-width:768px)"
+                  >
+                  <img src="img/Parigi23.jpg" alt="Immagine di Roma" class="w-100">
+              </picture>
+
+            </div>
+            <div class="carousel-item drk">
+              <picture>
+                  <source
+                  srcset="img/NewYork2.jpg"
+                  media="(min-width:1200px)"
+                  >
+                  <source
+                  srcset="img/NewYork4.jpg"
+                  media="(min-width:768px)"
+                  >
+                  <img src="img/NewYork23.jpg" alt="Immagine di new york" class="w-100">
+              </picture>
+            </div>
+            <div class="carousel-item drk active">
+              
+              <picture>
+                  <source
+                  srcset="img/Roma2.jpg"
+                  media="(min-width:1200px)"
+                  >
+                  <source
+                  srcset="./img/Roma4.jpg"
+                  media="(min-width:768px)"
+                  >
+                  <img src="img/Roma23.jpg" alt="Immagine di Parigi" class="w-100">
+              </picture>
+      
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div class="hero-text position-absolute top-50 start-50 translate-middle text-center text-white">
+
+          <h1>Scopri il Mondo con Noi</h1> 
+        <p>Bussola Viaggi ti porterà dovuqnue desideri</p></div>
+
+        </section>
+
+
+        <section id="info" class="mt-5">
+          <div class="container">
+            <div class="row my-3">
+              <div class="col-lg-6">
+                  <h2>Chi Siamo</h2>
+                  <p>
+
+                    Benvenuto nel nostro angolo di viaggio, dove ogni destinazione è un'opportunità per scoprire, esplorare e vivere nuove emozioni. Siamo un team di esperti viaggiatori pronti a guidarti nella pianificazione della tua prossima avventura, che si tratti di una vacanza rilassante sulla spiaggia, un'escursione in montagna o un tour culturale nelle città storiche del mondo.
+                  </p>
+                  
+
+
+                    <h2>Cosa offriamo</h2>
+
+                  <ul> <li> Pacchetti personalizzati: Organizzazione su misura in base alle tue preferenze, tempo disponibile e budget.</li>
+                  <li> Tour di gruppo: Unisciti a gruppi di appassionati viaggiatori per esplorare insieme destinazioni affascinanti con una guida esperta.</li>
+                  <li> Esperienze uniche: Escursioni, attività locali, esperienze culinarie, e molto altro per farti vivere il meglio di ogni luogo.</li>
+                  <li> Assistenza 24/7: Il nostro team è a tua disposizione per qualsiasi necessità prima, durante e dopo il viaggio.</li></ul>
+
+          </div>
+
+          <div class="col-lg-6 pb-4">
+            <img src="img/team.avif" class="img-fluid" alt="">
+          </div>
+        </div>
+
+
+      <div class="row my-5">
+        <div class="col-lg-6 pb-4">
+          <img src="img/team2.jpg" class="img-fluid"  alt="">
+        </div>
+
+              <div class="col-lg-6 pb-4">
+        <h2>Perché Sceglierci?</h2>
+<div class="check">
+        <ul>
+          <li>Esperienza e professionalità: Con anni di esperienza nel settore del turismo, siamo in grado di offrirti solo il meglio.</li>
+          <li>Affidabilità: Collaboriamo con le migliori strutture e partner locali per garantirti un viaggio sicuro e senza intoppi.</li>
+          <li>Sostenibilità: Ci impegniamo a promuovere viaggi responsabili che rispettano le culture e l'ambiente.</li>
+        </ul>
+
+       <h3> Il Tuo Viaggio Inizia Qui</h3>
+       <p> Non importa quale sia la tua destinazione dei sogni, noi siamo qui per trasformarla in realtà. Scegli il tuo prossimo viaggio con noi e preparati a partire per un’avventura che ricorderai per tutta la vita!</p>
+
+      <h6> <strong>Contattaci:</strong></h6>
+    </p>Visita il nostro sito web, compila il modulo di richiesta, o chiamaci direttamente per parlare con un nostro consulente. La tua prossima grande avventura ti aspetta!
+      </p>
+      <p>Non perdere l’occasione di vivere esperienze uniche a prezzi imperdibili! Dai soggiorni rilassanti alle avventure più emozionanti, abbiamo selezionato per te le migliori offerte per tutte le destinazioni. Visita subito le proposte e trova la tua prossima meta da sogno. Che tu stia cercando una fuga last minute o un viaggio pianificato, c'è l'offerta perfetta per te!</p>
+    
+    </div>
+  </div>
+      </div>
+         </div>
+         
+
+        
+          
+                
+         <section id="carosello" class="mt-5">
+                <div id="cards" class="pt-4 pb-5">
+                  <div class="container">
+                      <h2 class="text-center pt-3 pb-5 text-white">Le nostre offerte di viaggio</h2>
+                     
+                      <div class="swiper mySwiper">
+                          <div class="swiper-wrapper" id="swiper-wrapper">
+                          
+                          </div>
+                   
+                          <div class="swiper-button-next"></div>
+                          <div class="swiper-button-prev"></div>
+              
+                       
+                        </div>   
+                      </div>
+                  </div>
+              </section>
+
+
+
+
+
+
+            <footer id="main-footer">
+              <footer id="main-footer" class="text-white">
+                <!-- Classi per padding e margin:
+                https://getbootstrap.com/docs/5.3/utilities/spacing/
+                -->
+              
+                  <div class="container py-3">
+                    <footer id="main-footer">
+                      <div class="container">
+                         
+              
+                          <div class="d-lg-flex justify-content-between text-center">
+                              <div class="text-lg-start my-3">BUSSOLA VIAGGI</div>
+                              <div class="text-center my-3">
+                                <a href="#" class="text-white mx-3">
+                                    <i class="bi bi-instagram fs-3"></i>
+                                </a>
+                                <a href="#" class="text-white mx-3">
+                                    <i class="bi bi-twitter fs-3"></i>
+                                </a>
+                                <a href="#" class="text-white mx-3">
+                                    <i class="bi bi-facebook fs-3"></i>
+                                </a>
+                            </div>
+                      
+                              <div class="text-lg-end my-3">© 2024 My Team</div>
+                          </div>
+
+                      </div>
+                  </div>
+              
+              </footer>
+
+
+
+
+
+
+
+
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+          <script src="./js/script01.js"></script>
+
+</body>
+</html>

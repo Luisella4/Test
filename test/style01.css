@@ -1,0 +1,143 @@
+h1, h2, h3, h4, h5, h6 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px; /* change width */
+    height: 10px; /* change height */
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 100%;
+}
+.drk:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:#000;
+    opacity:0.3;
+}
+
+h1{
+    text-shadow: 0 0 10px #282727;
+    
+}
+
+.titoloViaggio{
+  text-shadow: 0 0 10px #28272773;
+}
+
+hero-text { text-shadow: 0 0 10px #282727;}
+.nav-link active:hover {color: rgb(161, 149, 134);}
+.nav-link:hover {color: rgb(161, 149, 134);}
+#main-header{
+    color: rgb(145, 136, 124);}
+
+#cards{
+    background-color: rgb(145, 136, 124);}
+
+.btn-primary {
+        color: #fff;
+        background-color: #347ac6;
+        border-color: #347ac6;
+    }
+
+.card-body {
+    box-shadow: 0 0 5px  rgb(161, 149, 134);
+}
+
+.check ul li {
+    list-style-type: none;
+}
+
+.check li::before {
+    
+    content: "\2713";
+    display: inline-block;
+    margin-right: 0.25rem;
+    color: rgb(161, 149, 134);
+}
+
+.back {
+  background-color: rgba(0, 0, 0, 0.036);
+  border-radius: 5px;
+}
+
+
+.icone {color:#347ac6;}
+
+.icone svg {
+  width: 100%;
+}
+
+
+
+.card {
+    width: 19rem; 
+    height: 42rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    overflow: hidden; 
+  }
+  
+  .card img {
+    width: 100%; 
+    height: 50%; 
+    object-fit: cover; 
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%; 
+  }
+  
+.cont { background-color:  rgb(161, 149, 134, 0.63);
+ 
+
+}
+  
+.cont2 { background-color:  rgb(161, 149, 134);
+ 
+
+}
+
+  #main-footer {  background-color:  rgb(42, 39, 35)}
+
+
+a {
+    text-decoration: none; 
+}
+
+
+  @media (max-width: 576px) {
+    .card {
+        width: 100%;  
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .card {
+        width: 100%; 
+    }
+}
+
+
